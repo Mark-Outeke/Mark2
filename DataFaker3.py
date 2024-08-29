@@ -195,11 +195,11 @@ class TreatmentDataSynthesizer:
                     data = json.load(infile)
                     
                     for event in data:
-                        event_date = event.get('eventDate', "")
+                        event_date = data.get('eventDate', "")
                         if event_date:
                             event_date = datetime.strptime(event_date, '%Y-%m-%dT%H:%M:%S.%f')
 
-                        for dataElement in event.get('dataValues', []):
+                        for dataElement in data.get('dataValues', []):
                             # Check if the value is not empty and matches one of the interval options
                             if dataElement.get('value', "") in interval_options:
                                 # Calculate the new event date based on the selected interval
@@ -212,26 +212,53 @@ class TreatmentDataSynthesizer:
                                 dictionary[treatmentElement['id']] = value   
 
             elif treatmentElement['id'] == "HzhDngURGLk":
-                weight = int(dictionary["xcTT5oXggBZ"])
-                height = int(dictionary["WBsNDNQUgeX"])
+                if "xcTT5oXggBZ" in dictionary and "WBsNDNQUgeX" in dictionary:
+                    weight = int(dictionary["xcTT5oXggBZ"])
+                    height = int(dictionary["WBsNDNQUgeX"])
 
-                dictionary[treatmentElement['id']] = f"{(weight * 10000) // (height * height)}"
+                    dictionary[treatmentElement['id']] = f"{(weight * 10000) // (height * height)}"
+                else: dictionary[treatmentElement['id']]= ""
 
-            elif treatmentElement['id'] == "eP1Yyb3h0ST":
+            elif treatmentElement['id'] == "Ghsh3wqVTif":
                 if dictionary["FklL99yLd3h"] == "Yes":
-                    dictionary[treatmentElement['id']] = self.generateValue(enrollment, treatmentElement)
-                else:
-                    dictionary[treatmentElement['id']] = ""
-            
-            
-            
+                # Check the interval to timedelta option and assign a value accordingly
+                    if dictionary["U4jSUZPF0HH"] == "1-2 Weeks":
+                        dictionary[treatmentElement['id']] = 1
+                    elif dictionary["U4jSUZPF0HH"] == "3-4 Weeks":
+                        dictionary[treatmentElement['id']] = 1
+                    elif dictionary["U4jSUZPF0HH"] == "5-6 Weeks":
+                        dictionary[treatmentElement['id']] = 1
+                    elif dictionary["U4jSUZPF0HH"] == "7-8 Weeks":
+                        dictionary[treatmentElement['id']] = 2        
+                    elif dictionary["U4jSUZPF0HH"] == "Month3":
+                        dictionary[treatmentElement['id']] = 3
+                    elif dictionary["U4jSUZPF0HH"] == "Month4":
+                        dictionary[treatmentElement['id']] = 4
+                    elif dictionary["U4jSUZPF0HH"] == "Month5":
+                        dictionary[treatmentElement['id']] = 5
+                    elif dictionary["U4jSUZPF0HH"] == "Month6":
+                        dictionary[treatmentElement['id']] = 6
+                    elif dictionary["U4jSUZPF0HH"] == "Month7":
+                        dictionary[treatmentElement['id']] = 7
+                    elif dictionary["U4jSUZPF0HH"] == "Month8":
+                        dictionary[treatmentElement['id']] = 8 
+                    elif dictionary["U4jSUZPF0HH"] == "Month9":
+                        dictionary[treatmentElement['id']] = 9 
+                    elif dictionary["U4jSUZPF0HH"] == "Month10":
+                        dictionary[treatmentElement['id']] = 10 
+                    elif dictionary["U4jSUZPF0HH"] == "Month11":
+                        dictionary[treatmentElement['id']] = 11 
+                    elif dictionary["U4jSUZPF0HH"] == "Mont12":
+                        dictionary[treatmentElement['id']] = 12 
+                    
+                
             
             
             for element_id, value in dictionary.items():
-                    #if value != "":
-                dataValues.append({"dataElement" : element_id, "value" : value})
+                if value != "":
+                    dataValues.append({"dataElement" : element_id, "value" : value})
 
-        print(dataValues)
+        #print(dataValues)
         # After processing, you might want to write the updated dictionary or dataValues to a file or return them
         return dataValues
 
