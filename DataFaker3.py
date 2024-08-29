@@ -220,7 +220,7 @@ class TreatmentDataSynthesizer:
                 else: dictionary[treatmentElement['id']]= ""
 
             elif treatmentElement['id'] == "Ghsh3wqVTif":
-                if dictionary["FklL99yLd3h"] == "Yes":
+                if "FklL99yLd3h" in dictionary and dictionary["FklL99yLd3h"] == "Yes":
                 # Check the interval to timedelta option and assign a value accordingly
                     if dictionary["U4jSUZPF0HH"] == "1-2 Weeks":
                         dictionary[treatmentElement['id']] = 1
@@ -250,8 +250,8 @@ class TreatmentDataSynthesizer:
                         dictionary[treatmentElement['id']] = 11 
                     elif dictionary["U4jSUZPF0HH"] == "Mont12":
                         dictionary[treatmentElement['id']] = 12 
-                    
-                
+                else:     
+                    dictionary[treatmentElement['id']] = ""
             
             
             for element_id, value in dictionary.items():
