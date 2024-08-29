@@ -1,0 +1,61 @@
+{
+    "Aw9p1CCIkqL": {
+        "Pulmonary bacteriologically confirmed (P-BC)TB": 0.57,
+        "Pulmonary Clinically Diagnosed (P-CD) TB": 0.37,
+        "Extra pulmonary (EP) TB": 0.04
+    },
+
+    "hDaev1EuehO": {
+        "New": 0.933632516,
+        "Relapse": 0.042429497,
+        "Treatment after Lost to Follow up": 0.009873017,
+        "Treatment after failure": 0.003549391,
+        "Treatment history Unknown": 0.000571166
+        
+    },
+
+    "CxdzmL6vtnx": {
+        "Yes": 0.94,
+        "No":0.01
+    },
+
+    "axDtvPeYL2Y": {
+        "2RHZE/ 4RH": 0.99,
+        "2RHZE/ 10 RH":0.01,
+        "Specify other regimen": 0
+    },
+    
+    "f0S6DIqAOE5": {
+        "Yes": 0.01,
+        "No":0.99
+    },
+    
+    "x7uZB9y0Qey": {
+        "No AFB (0)": 0.05,
+        "1-9 AFB per 100HPF (Scanty)": 0.005,
+        "10-99 AFB per 100 HPF (+)": 0.02,
+        "1-10 AFB per HPF(++)": 0.02,
+        "> 10 AFB per HPF(+++)": 0.02,
+        "Not Done": 0.005,
+        "Contaminated": 0.00001,
+        "Others Specify":0.00001
+    },
+
+    "pD0tc8UxyGg": {
+        "MTB detected, rifampicin resistance not detected": 0.29,
+        "MTB detected, rifampicin resistance detected": 0.032,
+        "MTB detected, rifampicin resistance indeterminate":0.005 ,
+        "MTB Trace Detected RR indeterminate":0.7 ,
+        "MTB not detected": 0.001,
+        "Invalid":0.001 ,
+        "Error":0.001,
+        "No result":0.0014
+    },
+
+    "e0mTEFrXZDh" : {
+        "Positive": 0.11,
+        "Negative": 0.82,
+        "Invalid / Indeterminate": 0.01
+    }
+
+}

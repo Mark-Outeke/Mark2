@@ -1,0 +1,380 @@
+[
+  {
+    "dataElement": "DSBS-01 : Disease Classification (Baseline)",
+    "id": "Aw9p1CCIkqL",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-02 : Type of patient",
+    "id": "hDaev1EuehO",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-11 : Diagnosed With DR TB",
+    "id": "f0S6DIqAOE5",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-08 : Started on 1st Line Treatment",
+    "id": "CxdzmL6vtnx",
+    "valueType": "TEXT",
+    "plan": "99% yes",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-09 :  DS-TB regimen",
+    "id": "axDtvPeYL2Y",
+    "valueType": "TEXT",
+    "plan": "99% 4rh",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-12 : Started on DRTB treatment",
+    "id": "eP1Yyb3h0ST",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-14 : Date started on DR-TB treatment",
+    "id": "EpvHxcDmxyT",
+    "valueType": "DATE",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-15 : Started on DRTB treatment DRTB No",
+    "id": "SRT2JzW4OFx",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "hasn�t"
+  },
+  {
+    "dataElement": "DSBS-16 : HIV status (Baseline)",
+    "id": "dtRfCJvzZRF",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-17 : ART Status",
+    "id": "b801bG8cIxt",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-18 : ART No",
+    "id": "sQ4Z6lEiiq6",
+    "valueType": "TEXT",
+    "plan": "random",
+    "enum": "hasn�t"
+  },
+  {
+    "dataElement": "DSBS-19 : CPT/Dapson (Baseline)",
+    "id": "pg6UUMn87eM",
+    "valueType": "TEXT",
+    "plan": "",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-20 : HIV status Date",
+    "id": "Bivxg5n4goz",
+    "valueType": "DATE",
+    "plan": "random before",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-21 : ART Status Date",
+    "id": "QcjaZKRl9D4",
+    "valueType": "DATE",
+    "plan": "same above",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-22 : CPT/Dapson Initiation Date",
+    "id": "FtWNuQmVu7j",
+    "valueType": "DATE",
+    "plan": "",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-23 : Risk Group Health Care Worker",
+    "id": "ig3ZDT8Mgus",
+    "valueType": "TRUE_ONLY",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-24 : Risk Group TB Contact",
+    "id": "t6qq4TXSE7n",
+    "valueType": "TRUE_ONLY",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-25 : Risk Group Prisoner",
+    "id": "WqWIsCuYw14",
+    "valueType": "TRUE_ONLY",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-29 : Risk Group Diabetic",
+    "id": "BQ2qwbH5WXi",
+    "valueType": "TRUE_ONLY",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-31 : Risk Group Smoker",
+    "id": "HHf4Vff0Xrx",
+    "valueType": "TRUE_ONLY",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-34 : Microscopy Results (Baseline)",
+    "id": "x7uZB9y0Qey",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-35 : NAAT Results (Baseline)",
+    "id": "pD0tc8UxyGg",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-36 : TB LAM Results (Baseline)",
+    "id": "e0mTEFrXZDh",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-37 : Results X-ray(Baseline)",
+    "id": "LRzaAyb2vGk",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-39 : Microscopy Test Date",
+    "id": "WoPIO7Jd8EL",
+    "valueType": "DATE",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-40 : NAAT Test date (Baseline)",
+    "id": "JCdqUjZZuvx",
+    "valueType": "DATE",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-41 : TB LAM Test date (Baseline)",
+    "id": "aOHalAjOIrJ",
+    "valueType": "DATE",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-42 : Test date X-ray",
+    "id": "YSjR80QKKXo",
+    "valueType": "DATE",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-44 : Microscopy Lab No",
+    "id": "z2NcMr02XJs",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "hasn�t"
+  },
+  {
+    "dataElement": "DSBS-45 : NAAT Lab No",
+    "id": "CF6JasgPZtt",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "hasn�t"
+  },
+  {
+    "dataElement": "DSBS-46 : TB Lab No (Baseline)",
+    "id": "WWREUMZUm7z",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "hasn�t"
+  },
+  {
+    "dataElement": "DSBS-47 : Lab No X-ray",
+    "id": "wD7EhGND4tu",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "hasn�t"
+  },
+  {
+    "dataElement": "DSBS-49 : Diabetes Status 2024",
+    "id": "FZMwpP1ncnZ",
+    "valueType": "TEXT",
+    "plan": "random",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-50 : 1st Line treatment start date",
+    "id": "THirpMvAHgw",
+    "valueType": "DATE",
+    "plan": "only if new patient",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-51 : Extra Pulmonary TB Site",
+    "id": "IGv6SjkM162",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-52: Risk Group Uniformed/Armed Personnel",
+    "id": "K1JiyL94mCT",
+    "valueType": "TRUE_ONLY",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-53: Date diagnosed with DRTB",
+    "id": "j9lDBfNNXlz",
+    "valueType": "DATE",
+    "plan": "if diagnosed before",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-54 Describe Lesions",
+    "id": "jNdLczMvDPT",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-55 : Severity",
+    "id": "UGznqHuXC8A",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-56 : CD4",
+    "id": "Dq2CKpBrLem",
+    "valueType": "NUMBER",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-57 : Viral Load",
+    "id": "Rj4uJOP4t96",
+    "valueType": "NUMBER",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-58 : ART Regimen",
+    "id": "pYsPUUxPn3v",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "has options"
+  },
+  {
+    "dataElement": "DSBS-59 : Slum Dweller",
+    "id": "EeE2uJluiAY",
+    "valueType": "TRUE_ONLY",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-60 : Under nourished",
+    "id": "U0s0Hul9lmX",
+    "valueType": "TRUE_ONLY",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSBS-61 : Alcohol and drug abuse",
+    "id": "YhHeRvXzmXJ",
+    "valueType": "TRUE_ONLY",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSTX-41 : Weight (kg) (TB Baseline Vitals)",
+    "id": "dfNv7RZKIml",
+    "valueType": "NUMBER",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSTX-42 : Height (cm) (TB Baseline Vitals)",
+    "id": "XwVhny4B7EV",
+    "valueType": "NUMBER",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSTX-43 : BMI (TB Baseline Vitals)",
+    "id": "DDzcOBJwRnC",
+    "valueType": "NUMBER",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSTX-44 : MUAC (TB Baseline Vitals)",
+    "id": "XHkluF3EAg0",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "hasn�t"
+  },
+  {
+    "dataElement": "DSTX-45 : HB (TB Baseline Vitals)",
+    "id": "uIlwmJ26a6N",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "hasn�t"
+  },
+  {
+    "dataElement": "DSTX-46 : BP (TB Baseline Vitals)",
+    "id": "R0uqGCHWq4M",
+    "valueType": "NUMBER",
+    "plan": "keep",
+    "enum": ""
+  },
+  {
+    "dataElement": "DSTX-47 : FBS (TB Baseline Vitals)",
+    "id": "OjPmMe220KO",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "hasn�t"
+  },
+  {
+    "dataElement": "DSTX-48 : RBS (TB Baseline Vitals)",
+    "id": "CXUI1Yrr9gd",
+    "valueType": "TEXT",
+    "plan": "keep",
+    "enum": "hasn�t"
+  },
+  {
+    "dataElement": "DSTX-49 : Temperature (TB Baseline Vitals)",
+    "id": "CpNmdkKzz8O",
+    "valueType": "NUMBER",
+    "plan": "keep",
+    "enum": ""
+  }
+]

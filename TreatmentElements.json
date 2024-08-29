@@ -1,0 +1,332 @@
+[
+	{
+		"dataElement": " DSTX-77: Assessed for Malnutrition at the last visit during the reporting quarter?",
+		"id": "fOnOoUvD03d",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DS: Month of Treatment",
+		"id": "U4jSUZPF0HH",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSBS-01 : Disease Classification (Baseline)",
+		"id": "Aw9p1CCIkqL",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSBS-43 : Date Test Done",
+		"id": "kvQ0Wz3ZqFr",
+		"valueType": "DATE"
+	},
+	{
+		"dataElement": "DSLT-01 : Type of Test",
+		"id": "t1wRW4bpRrj",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSLT-12 : Follow up lab Results",
+		"id": "WTz4HSqoE5E",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-02 : Weight  (kg)",
+		"id": "xcTT5oXggBZ",
+		"valueType": "NUMBER"
+	},
+	{
+		"dataElement": "DSTX-03 : Height ",
+		"id": "WBsNDNQUgeX",
+		"valueType": "NUMBER"
+	},
+	{
+		"dataElement": "DSTX-04 : MUAC Code",
+		"id": "E0oIYbS2lcV",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-05 : BMI",
+		"id": "HzhDngURGLk",
+		"valueType": "NUMBER"
+	},
+	{
+		"dataElement": "DSTX-11 : Adverse Event Gastrointestinal",
+		"id": "rluc10OPm1I",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-12 : Suspected Adverse Event Drug Causing",
+		"id": "DrbIE582o34",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-13 : Adverse Event Hepatotoxicity",
+		"id": "F5P1buF4RHP",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-14 : Adverse Event Musculoskeletal",
+		"id": "UtGpqsuTmrD",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-15 : Adverse Event Renal toxicity",
+		"id": "rHEeM6ha268",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-16 : Adverse Event Vestibular/Ototoxicity",
+		"id": "DHPzkmTcDUv",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-17 : Adverse Event Vision changes",
+		"id": "RTKE58980U7",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-18 : Adverse Event Neuropathy",
+		"id": "luQQ9zNTgFM",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-19 : Adverse Event Psychiatric",
+		"id": "k5LrUGjAGD5",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-20 : Adverse Event Hypothyroid",
+		"id": "EDFvw8DsJuH",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-21 : Adverse Event Dysglycemia",
+		"id": "Wbp0DL9fQYj",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-22 : Adverse Event Dermatologic",
+		"id": "pDR49oOtJrc",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-23 : Adverse Event Cardiovascular",
+		"id": "mDmVRrzihu0",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-24 : Adverse Event Hematological",
+		"id": "KAykkHp1p2F",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-25 : Adverse Event New onset Seizure",
+		"id": "EoO16H5lLK5",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-26 : Adverse Event Electrolyte Abnormality",
+		"id": "lpJPqjVUToo",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-27 : Adverse Event reported during the visit",
+		"id": "sM7PAEYRqEP",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-28: Treatment Model",
+		"id": "pDoTShM62yi",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-29: RHZE(150/75/400/275 mg) given",
+		"id": "FklL99yLd3h",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-30: RH (150/75mg) given",
+		"id": "QzfjeqlwN2c",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-31: RHZ (75/50/150mg) given",
+		"id": "pZgD6CYOa96",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-32: RH (75/50 mg) given",
+		"id": "TevjEqHRBdC",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-33: Ethambutol (100mg) given",
+		"id": "EWsKHldwJxa",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-35: RHZE(150/75/400/275 mg) blisters given",
+		"id": "Ghsh3wqVTif",
+		"valueType": "NUMBER"
+	},
+	{
+		"dataElement": "DSTX-36: RH (150/75mg) blisters given",
+		"id": "vZMCHh6nEBZ",
+		"valueType": "NUMBER"
+	},
+	{
+		"dataElement": "DSTX-37: RHZ (75/50/150mg) blisters given",
+		"id": "LyiHJrtjNTX",
+		"valueType": "NUMBER"
+	},
+	{
+		"dataElement": "DSTX-38: RH (75/50 mg) blisters given",
+		"id": "muBnQUtbS9R",
+		"valueType": "NUMBER"
+	},
+	{
+		"dataElement": "DSTX-39: Ethambutol (100mg) blisters given",
+		"id": "wpV8b2x6uDP",
+		"valueType": "NUMBER"
+	},
+	{
+		"dataElement": "DSTX-43 : Oedema",
+		"id": "aNj8BNicATN",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-45 Nutrition Status",
+		"id": "Jl3oWFGGt1U",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-46 Nutrition Support Provided",
+		"id": "YwZN88UJ98d",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-47 : FBS (TB Baseline Vitals)",
+		"id": "OjPmMe220KO",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-47 : INR No.",
+		"id": "FbAAnGS1hMd",
+		"valueType": "NUMBER"
+	},
+	{
+		"dataElement": "DSTX-48 : RBS (TB Baseline Vitals)",
+		"id": "CXUI1Yrr9gd",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-57 : OGTT",
+		"id": "SaUrKUfG5sq",
+		"valueType": "NUMBER"
+	},
+	{
+		"dataElement": "DSTX-59 : Diabetes Status",
+		"id": "nVaN4Cpoe9Z",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-71 : Mental Health Diagnosis",
+		"id": "AfgbZ88OenB",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-72 : Mental Health Treatment",
+		"id": "w8g4nfzSSkl",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-73 : DSD Model",
+		"id": "sVFokCQ8LTV",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-78: Malnourished at the last visit",
+		"id": "OxiGxyWZtZh",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : Burning sensation in the feet",
+		"id": "ywUNEl0vi3Y",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : Deafness",
+		"id": "XzNqEEXo00j",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : dermatitis",
+		"id": "Ep0hN5HdQKS",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : Dizziness",
+		"id": "zJWyXO06Rhi",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : Flu syndrome",
+		"id": "OZkvrZWZL0u",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : Hepatitis",
+		"id": "H85OvvFGG6i",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : Jaundice",
+		"id": "P9DY4UW3BTo",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : Joint pains",
+		"id": "iUyb0JGgeqn",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : Low appetite, nausea, abdominal pain",
+		"id": "vvlAUOFU1lc",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : Mental confusion",
+		"id": "omFhxVHAHW8",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : nystagmus",
+		"id": "hZ4HR3lEOWm",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : peripheral neuropathy",
+		"id": "G0m1TnJ9CaB",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : reddish-brown coloration of urine",
+		"id": "fhEVXFPNNUc",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : Skin rash",
+		"id": "cdGuoKHI3fp",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : vertigo",
+		"id": "WLqYnkV6qx1",
+		"valueType": "TEXT"
+	},
+	{
+		"dataElement": "DSTX-X : Visual impairment",
+		"id": "P6eKotYRIvT",
+		"valueType": "TEXT"
+	}
+]    
