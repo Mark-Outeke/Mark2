@@ -308,8 +308,8 @@ class BaselineDataSynthesizer:
                 dictionary[baseLineElement['id']] = ""                
 
             else:
-                value = self.generateValue(enrollment, treatmentElement)
-                dictionary[treatmentElement['id']] = value
+                value = self.generateValue(enrollment, baseLineElement)
+                dictionary[baseLineElement['id']] = value
 
         for element_id, value in dictionary.items():
             #if value != "":
@@ -348,7 +348,7 @@ def main():
         events.append(newEvent)
 
     data = {"events" : events}
-    f = open('Output.json', 'w')
+    f = open('Outputtest.json', 'w')
     json.dump(data, f)
     f.close()
     
