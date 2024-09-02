@@ -189,18 +189,25 @@ class TreatmentDataSynthesizer:
                 # Check the interval to timedelta option and assign a value accordingly
                     if dictionary["U4jSUZPF0HH"] == "1-2 Weeks":
                         dictionary[treatmentElement['id']] = 1
+
                     elif dictionary["U4jSUZPF0HH"] == "3-4 Weeks":
                         dictionary[treatmentElement['id']] = 1
+
                     elif dictionary["U4jSUZPF0HH"] == "5-6 Weeks":
                         dictionary[treatmentElement['id']] = 1
+
                     elif dictionary["U4jSUZPF0HH"] == "7-8 Weeks":
-                        dictionary[treatmentElement['id']] = 2        
+                        dictionary[treatmentElement['id']] = 2
+
                     elif dictionary["U4jSUZPF0HH"] == "Month3":
                         dictionary[treatmentElement['id']] = 3
+
                     elif dictionary["U4jSUZPF0HH"] == "Month4":
                         dictionary[treatmentElement['id']] = 4
+
                     elif dictionary["U4jSUZPF0HH"] == "Month5":
                         dictionary[treatmentElement['id']] = 5
+                        
                     elif dictionary["U4jSUZPF0HH"] == "Month6":
                         dictionary[treatmentElement['id']] = 6
                     elif dictionary["U4jSUZPF0HH"] == "Month7":
