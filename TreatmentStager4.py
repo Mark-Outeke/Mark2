@@ -580,7 +580,7 @@ def main():
     baselineEvents = getEvents()
     stageEvents = []
 
-    monthOfTreatments = (
+    monthOfTreatments = [
       "1-2 Weeks",
       "3-4 Weeks",
       "5-6 Weeks",
@@ -595,7 +595,7 @@ def main():
     #   "Month 10",
     #   "Month 11",
     #   "Month 12"
-    )
+    ]
     for monthOfTreatment in monthOfTreatments:
 
 

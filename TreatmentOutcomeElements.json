@@ -1,0 +1,44 @@
+[
+    {
+        "dataElement": "DSCOS-07: Does the client have post TB lung disease?",
+        "valueType": "BOOLEAN",
+        "id": "j0ApYxRK7qS",
+        "options": "Yes",
+        "": "No"
+    },
+    {
+        "dataElement": "DSOC-01 : Treatment outcome",
+        "valueType": "TEXT",
+        "id": "TFS9P7tu6U6",
+        "options": "",
+        "": ""
+    },
+    {
+        "dataElement": "DSOC-04 : Action taken for Misclassification",
+        "valueType": "TEXT",
+        "id": "P5VaVFKF5i7",
+        "options": "",
+        "": ""
+    },
+    {
+        "dataElement": "DSOC-02 : Misclassfied",
+        "valueType": "TEXT",
+        "id": "FhUzhlhPXqV",
+        "options": "",
+        "": ""
+    },
+    {
+        "dataElement": "DSOC-03 : Reason for Misclassfication",
+        "valueType": "TEXT",
+        "id": "wDxPOnKDYLv",
+        "options": "",
+        "": ""
+    },
+    {
+        "dataElement": "DSOC-05: Transferred to 2nd line",
+        "valueType": "TEXT",
+        "id": "J5kKvyU8mpY",
+        "options": "",
+        "": ""
+    }
+]

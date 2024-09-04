@@ -23,5 +23,5 @@ def split_json_by_orgUnit(input_file):
         print(f'Successfully wrote {len(events)} events to {output_file}')
 
 # Example usage
-input_file = 'Output.json'
+input_file = '1-2 Weeks treatmentStageOutputtest.json'
 split_json_by_orgUnit(input_file)
