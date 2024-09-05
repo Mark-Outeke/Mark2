@@ -130,6 +130,12 @@ def getNutritionalStatusFromBMI(bmi):
         # (18.5 to 24.9) NormalWeight
         return ""
     
+def getDataElementIdToOptionMap():
+    file = open('DataElementIdToOptionMapping.json')
+    dataElementIdToOptionMap = json.load(file)
+    file.close()
+    return dataElementIdToOptionMap
+
 #################################################################################################
 
 
@@ -251,7 +257,20 @@ class TreatmentDataSynthesizer:
                 #"dataElement": "DSLT-01 : Type of Test"
                 case "t1wRW4bpRrj":
                     #TODO
-                    pass
+                    if getValueByID(eventData, ["x7uZB9y0Qey",
+                                                "pD0tc8UxyGg",
+                                                "e0mTEFrXZDh",
+                                                "LRzaAyb2vGk"]): 
+                                                 
+                                                
+
+                        value = getDataElementIdToOptionMap(baselineDataValues, options[""]);
+                    
+                        stageDataValues.append({
+                            "dataElement" : treatmentElement['id'],
+                            'value': value}
+                        )
+                    
 
                 #"dataElement": "DSLT-12 : Follow up lab Results"
                 case "WTz4HSqoE5E":

@@ -351,7 +351,7 @@ def main():
     f = open('Outputtest.json', 'w')
     json.dump(data, f)
     f.close()
-    
+    print(f"Number of events generated: {len(events)}")
 
 if "__main__":
     main()
